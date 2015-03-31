@@ -1,3 +1,7 @@
+Import of code found on google code, nothing was there but a single solitary tar file...
+What follows is the original readme:
+=====================================================================================
+
 README for Python code for distributed computing
 Joshua Stough
 Washington and Lee University
