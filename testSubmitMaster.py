@@ -18,7 +18,7 @@ that, make sure we have everything working.
  Public License for more details.
 """
 
-from submitMaster import *
+from submitMaster import processCommandsInParallel
 import os
 
 #Generate some commands.

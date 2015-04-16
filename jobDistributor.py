@@ -30,8 +30,9 @@ about the submissions made--again, see submitMaster.
  Public License for more details.
 """
 
-import os, sys, shlex, subprocess, time
-from listQueue import listQueue
+#import os, sys, 
+import shlex, subprocess, time
+#from listQueue import listQueue
 
 #My computer list, should be able to ssh to without a password.
 
@@ -104,7 +105,7 @@ class JobDistributor(object):
                 #submitMaster that calls this ensures there is
                 #availability.  This will hang if it was mistaken.
         #print('Starting command.')
-        command_line = 'ssh ' + host + ' ' + command
+        #command_line = 'ssh ' + host + ' ' + command
 
 
         #This implies that shlex is maybe splitting up the command too much

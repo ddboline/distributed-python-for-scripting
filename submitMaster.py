@@ -37,7 +37,7 @@ import time
 #from multiprocessing import Connection
 from listQueue import listQueue
 from multiprocessing import Process, Pipe
-from jobDistributor import *
+from jobDistributor import JobDistributor
 
 def submitMaster(conn):
     print("submit Master started...")
